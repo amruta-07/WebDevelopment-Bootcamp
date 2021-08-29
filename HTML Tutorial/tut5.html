@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input Tags</title>
+</head>
+<body>
+    <h2>THIS IS HTML FORMS TUTORIAL</h2>
+    <form action="backend.php">
+    <div>
+        Name: <input type="text" name="myName">
+    </div>
+    <br>
+    <!-- in lable tag for and id content must be same -->
+    <label for="role">Role:</label>
+    <div>
+        <input type="text" name="myRole" id="role">
+    </div>
+    <br>
+    <div>
+        Email:<input type="email" name="myEmail">
+    </div>
+    <br>
+    <label for="date"> Date</label>
+    
+    <div>
+         <input type="date" name="myDate" id="date" >
+    </div>
+    <br>
+    <label for="bonus">Bonus</label>
+    <div>
+           <input type="number" name="myBonus" id="bonus"> 
+    </div>
+    <br>
+    <label for="are you eligible">Are You Eligible?:</label>
+    <div>
+        <input type="checkbox" name="myEligibility" id="are you eligible">
+    </div>
+    <br>
+    <div>
+        Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender"> Other <input type="radio" name="myGender">
+    </div>
+    <br>
+    <div>
+       Write about yourself: <br><textarea name="myText"  cols="30" rows="10"></textarea>
+    </div>
+    <br>
+    <div>
+     <label for="car">Car</label>
+     <select name="myCar" id="car">
+         <option value="ind" selected>Indica</option>
+         <option value="swf">Swift</option>
+     </select>
+     </div>
+     <br>
+    <div>
+         <input type="submit" value="Submit Now"> 
+         <input type="reset" name="Reset Now">
+    </div>
+    
+    
+</form>
+</body>
+</html>
